@@ -1,0 +1,7 @@
+org\ordo\project\model\EntityList.class
+org\ordo\project\model\ReplyMessage.class
+org\ordo\project\model\RestInterface.class
+org\ordo\project\model\ServiceFacade.class
+org\ordo\project\model\Entity.class
+org\ordo\project\model\EntityDAO.class
+org\ordo\project\model\ServiceFactory.class

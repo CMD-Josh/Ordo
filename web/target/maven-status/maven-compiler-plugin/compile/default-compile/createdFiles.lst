@@ -1,0 +1,3 @@
+org\ordo\project\web\rest\ExampleProjectRestImpl.class
+org\ordo\project\web\WebObjectFactory.class
+org\ordo\project\web\rest\RestApp.class

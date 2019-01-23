@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>1</lastEntityId>
+    <entities>
+        <entity>
+            <id>1</id>
+            <timeStart>testFieldA</timeStart>
+        </entity>
+    </entities>
+</entityList>

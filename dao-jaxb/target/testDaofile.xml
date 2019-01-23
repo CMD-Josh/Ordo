@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>4</lastEntityId>
+    <entities>
+        <entity>
+            <id>1</id>
+            <timeStart>timeStart_0</timeStart>
+            <timeEnd>timeEnd_0</timeEnd>
+            <price>price_0</price>
+        </entity>
+        <entity>
+            <id>3</id>
+            <timeStart>timeStart_Update</timeStart>
+            <timeEnd>timeEnd_Update</timeEnd>
+            <price>price_2</price>
+        </entity>
+        <entity>
+            <id>4</id>
+            <timeStart>timeStart_3</timeStart>
+            <timeEnd>timeEnd_3</timeEnd>
+            <price>price_3</price>
+        </entity>
+    </entities>
+</entityList>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<replyMessage>
+    <code>200</code>
+    <debugMessage>debug message 1</debugMessage>
+    <entityList>
+        <entities>
+            <entity>
+                <id>0</id>
+                <timeStart>field_A_0</timeStart>
+                <timeEnd>field_B_0</timeEnd>
+                <price>field_C_0</price>
+            </entity>
+            <entity>
+                <id>1</id>
+                <timeStart>field_A_1</timeStart>
+                <timeEnd>field_B_1</timeEnd>
+                <price>field_C_1</price>
+            </entity>
+            <entity>
+                <id>2</id>
+                <timeStart>field_A_2</timeStart>
+                <timeEnd>field_B_2</timeEnd>
+                <price>field_C_2</price>
+            </entity>
+        </entities>
+    </entityList>
+</replyMessage>

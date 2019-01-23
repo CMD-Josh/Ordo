@@ -1,0 +1,18 @@
+00:31:07.093 [main] DEBUG org.ordo.project.dao.jaxbimpl.EntityDAOJaxbImpl - using dataFile:C:\Users\joshm\Desktop\Work\Object Orientated Year 2\Project\Ordo\service\.\target\testfile.xml
+00:31:07.096 [main] DEBUG org.ordo.project.dao.jaxbimpl.EntityDAOJaxbImpl - dataFile does not exist creating new C:\Users\joshm\Desktop\Work\Object Orientated Year 2\Project\Ordo\service\.\target\testfile.xml
+00:31:07.102 [main] DEBUG org.ordo.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <entities/>
+</entityList>
+
+00:31:07.112 [main] DEBUG org.ordo.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>1</lastEntityId>
+    <entities>
+        <entity>
+            <id>1</id>
+            <timeStart>testFieldA</timeStart>
+        </entity>
+    </entities>
+</entityList>
+

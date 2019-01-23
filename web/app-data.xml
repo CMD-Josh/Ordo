@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>9</lastEntityId>
+    <entities>
+        <entity>
+            <id>6</id>
+            <timeStart>11:10 - MON</timeStart>
+            <timeEnd>13:10 - MON</timeEnd>
+            <price>2.00</price>
+        </entity>
+        <entity>
+            <id>8</id>
+            <timeStart>13:11 - MON</timeStart>
+            <timeEnd>15:10 - MON</timeEnd>
+            <price>2.00</price>
+        </entity>
+        <entity>
+            <id>9</id>
+            <timeStart>15:11 - MON</timeStart>
+            <timeEnd>17:10 - MON</timeEnd>
+            <price>3.00</price>
+        </entity>
+    </entities>
+</entityList>
