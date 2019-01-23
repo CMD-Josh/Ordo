@@ -1,4 +1,4 @@
-# Example Project
+# Ordo Project
 
 ## Instructions
 
