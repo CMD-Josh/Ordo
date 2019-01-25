@@ -33,7 +33,7 @@ public class RestClientJerseyImplTest {
         assertNotNull(replyMessage);
         assertTrue(replyMessage.getEntityList().getEntities().isEmpty());
 
-        // try to retreive entity with id 1
+        // try to retreive entity with id 6
         ReplyMessage replyMessage2 = restClient.retrieveEntity(6);
         assertNotNull(replyMessage2);
         assertEquals(1, replyMessage2.getEntityList().getEntities().size());
@@ -64,5 +64,25 @@ public class RestClientJerseyImplTest {
            System.out.println("   "+ e);
        }
         
+    }
+    @Test
+    public void restClientRetreiveAllTest() { // Modify to create test which tests for no valid parking meter
+
+        RestClientJerseyImpl restClient = new RestClientJerseyImpl(baseUrl, mediaType);
+
+        // try to retreive all entities
+        ReplyMessage replyMessage = restClient.retrieveAllEntities(Integer.SIZE);
+        assertNotNull(replyMessage);
+
+        // try to retreive entity with id 6
+//        ReplyMessage replyMessage2 = restClient.retrieveEntity(6);
+//        assertNotNull(replyMessage2);
+//        assertEquals(1, replyMessage2.getEntityList().getEntities().size());
+
+        List<Entity> entity = replyMessage.getEntityList().getEntities();
+        for(Entity e : entity){
+            System.out.println("Received Schedule: " + e);
+        }
+
     }
 }

@@ -1,24 +1,60 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <entityList>
-    <lastEntityId>9</lastEntityId>
+    <lastEntityId>15</lastEntityId>
     <entities>
         <entity>
             <id>6</id>
-            <timeStart>11:10 - MON</timeStart>
-            <timeEnd>13:10 - MON</timeEnd>
+            <timeStart>11:10 - Mon</timeStart>
+            <timeEnd>13:10 - Mon</timeEnd>
             <price>2.00</price>
         </entity>
         <entity>
             <id>8</id>
-            <timeStart>13:11 - MON</timeStart>
-            <timeEnd>15:10 - MON</timeEnd>
-            <price>2.00</price>
+            <timeStart>13:11 - Mon</timeStart>
+            <timeEnd>15:10 - Mon</timeEnd>
+            <price>2.50</price>
         </entity>
         <entity>
             <id>9</id>
-            <timeStart>15:11 - MON</timeStart>
-            <timeEnd>17:10 - MON</timeEnd>
+            <timeStart>15:11 - Mon</timeStart>
+            <timeEnd>17:10 - Mon</timeEnd>
             <price>3.00</price>
+        </entity>
+        <entity>
+            <id>10</id>
+            <timeStart>04:20 - Fri</timeStart>
+            <timeEnd>07:22 - Fri</timeEnd>
+            <price>6.32</price>
+        </entity>
+        <entity>
+            <id>11</id>
+            <timeStart>07:23 - Fri</timeStart>
+            <timeEnd>10:01 - Fri</timeEnd>
+            <price>5.33</price>
+        </entity>
+        <entity>
+            <id>12</id>
+            <timeStart>10:02 - Fri</timeStart>
+            <timeEnd>15:15 - Fri</timeEnd>
+            <price>10.52</price>
+        </entity>
+        <entity>
+            <id>13</id>
+            <timeStart>15:16 - Fri</timeStart>
+            <timeEnd>17:10 - Fri</timeEnd>
+            <price>7.80</price>
+        </entity>
+        <entity>
+            <id>14</id>
+            <timeStart>17:11 - Fri</timeStart>
+            <timeEnd>20:42 - Fri</timeEnd>
+            <price>4.00</price>
+        </entity>
+        <entity>
+            <id>15</id>
+            <timeStart>20:43 - Fri</timeStart>
+            <timeEnd>22:00 - Fri</timeEnd>
+            <price>3.79</price>
         </entity>
     </entities>
 </entityList>

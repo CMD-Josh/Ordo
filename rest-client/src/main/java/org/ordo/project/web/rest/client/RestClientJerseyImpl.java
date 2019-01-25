@@ -99,4 +99,35 @@ public class RestClientJerseyImpl implements RestInterface {
 
         
     }
+    
+    public ReplyMessage retrieveAllEntities(Integer id) {
+        Response response = null;
+        ReplyMessage replyMessage = null;
+        try {
+            Invocation.Builder builder = target.path("retrieveAll")
+                    .queryParam("id", id)
+                    .request(mediaType);
+            response = builder.get();
+
+            replyMessage = response.readEntity(ReplyMessage.class);
+
+            // get error message if available
+            if (response.getStatus() != 200) {
+                String errorMessage = (replyMessage == null) ? "no remote error message" : replyMessage.getDebugMessage();
+                throw new RuntimeException("response status:" + response.getStatus() + " remote error message: " + errorMessage);
+            }
+
+            // responded with an OK message now check actually have a value
+            if (replyMessage == null) {
+                throw new RuntimeException("response status:" + response.getStatus() + " but no restMessage body ");
+            }
+            
+            return replyMessage;
+
+        } catch (Exception e) {
+            throw new RuntimeException("cannot run rest client to /retrieveAll: Exception:", e);
+        }
+
+        
+    }
 }

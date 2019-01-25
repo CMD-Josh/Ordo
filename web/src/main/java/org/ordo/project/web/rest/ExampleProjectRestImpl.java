@@ -102,4 +102,40 @@ public class ExampleProjectRestImpl {
         }
 
     }
+    
+    @GET
+    @Path("/retrieveAll")
+    @Consumes({MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML})
+    @Produces({MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML})
+    public Response retrieveAll(@QueryParam("id") Integer id) { //Keep Id for later, will be used to fetch for an id of a parking meter
+        try {
+            if (id == null) {
+                throw new IllegalArgumentException("id request parameter must be set");
+            }
+            ReplyMessage replyMessage = new ReplyMessage();
+
+            ServiceFacade serviceFacade = WebObjectFactory.getServiceFactory().getServiceFacade();
+            List<Entity> entities = serviceFacade.retrieveAllEntities(); // Returning all schedules
+            if (entities != null) {
+                LOG.debug("/retrieveAll MeterId= " + id + " found " + entities.size() + " entities.");
+                replyMessage.getEntityList().getEntities().addAll(entities);
+
+                replyMessage.setCode(Response.Status.OK.getStatusCode());
+                return Response.status(Response.Status.OK).entity(replyMessage).build();
+            } else {
+                LOG.debug("/retrieveAll MeterId=" + id + " found no entities :");
+                replyMessage.setDebugMessage("/retrieveAll MeterId=" + id + " found no entities");
+                replyMessage.setCode(Response.Status.OK.getStatusCode());
+                return Response.status(Response.Status.OK).entity(replyMessage).build();
+            }
+
+        } catch (Exception ex) {
+            LOG.error("error calling /retrieveAll ", ex);
+            ReplyMessage replyMessage = new ReplyMessage();
+            replyMessage.setCode(Response.Status.INTERNAL_SERVER_ERROR.getStatusCode());
+            replyMessage.setDebugMessage("error calling /retrieveAll " + ex.getMessage());
+            return Response.status(Response.Status.INTERNAL_SERVER_ERROR).entity(replyMessage).build();
+        }
+
+    }
 }

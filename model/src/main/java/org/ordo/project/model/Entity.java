@@ -56,7 +56,7 @@ public class Entity {
 
     @Override
     public String toString() {
-        return "Entity{" + "id=" + id
+        return "Schedule{" + "id=" + id
                 + ", timeStart=" + timeStart
                 + ", timeEnd=" + timeEnd
                 + ", price=" + price + '}';

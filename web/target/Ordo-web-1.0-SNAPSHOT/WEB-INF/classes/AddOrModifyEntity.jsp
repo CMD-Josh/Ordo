@@ -86,13 +86,13 @@
                     <td><%=entity.getTimeStart()%></td>
                     <td><input type="time" name="timeStart" required="true">
                         <select name="dayStart" required="true">
-                            <option value="MON">Monday</option>
-                            <option value="TUE">Tuesday</option>
-                            <option value="WED">Wednesday</option>
-                            <option value="THU">Thursday</option>
-                            <option value="FRI">Friday</option>
-                            <option value="SAT">Saturday</option>
-                            <option value="SUN">Sunday</option>
+                            <option value="Mon">Monday</option>
+                            <option value="Tue">Tuesday</option>
+                            <option value="Wed">Wednesday</option>
+                            <option value="Thu">Thursday</option>
+                            <option value="Fri">Friday</option>
+                            <option value="Sat">Saturday</option>
+                            <option value="Sun">Sunday</option>
                         </select>
                     </td>
                 </tr>
@@ -101,13 +101,13 @@
                     <td><%=entity.getTimeEnd()%></td>
                     <td><input type="time" name="timeEnd" required="true">
                         <select name="dayEnd" required="true">
-                            <option value="MON">Monday</option>
-                            <option value="TUE">Tuesday</option>
-                            <option value="WED">Wednesday</option>
-                            <option value="THU">Thursday</option>
-                            <option value="FRI">Friday</option>
-                            <option value="SAT">Saturday</option>
-                            <option value="SUN">Sunday</option>
+                            <option value="Mon">Monday</option>
+                            <option value="Tue">Tuesday</option>
+                            <option value="Wed">Wednesday</option>
+                            <option value="Thu">Thursday</option>
+                            <option value="Fri">Friday</option>
+                            <option value="Sat">Saturday</option>
+                            <option value="Sun">Sunday</option>
                         </select>
                     </td>
                 </tr>
