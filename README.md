@@ -37,3 +37,7 @@ into the address bar. Where id=x being the scheduling group to pull from. which 
 
 ### Parking Meter Client
 the parking meter client comes with its own interface using javafx. running the ReST client will automatically open the interface where you will be able to setup the meter before being used by customers.
+
+![alt text](https://github.com/The-Beverage/Ordo/blob/master/Ordo-uml/images/Setup%20interface.PNG "Setup Interface.png")
+
+The left most text box is for entering the address to the server for the client to connect to and the right most box is used for distinguising what group of schedules the meter should pull from. After you've entered in that information you can click "Accept" to start showing the schedule listings.
