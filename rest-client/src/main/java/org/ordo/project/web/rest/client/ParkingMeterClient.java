@@ -144,9 +144,6 @@ public class ParkingMeterClient extends Application{
             }
         });
         
-        slDurr.valueProperty().set(24);
-        slDurr.valueProperty().set(1);
-        
         btnSetup.setOnAction(new EventHandler() {
             @Override
             public void handle(Event event) {

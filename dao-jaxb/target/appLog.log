@@ -1,12 +1,12 @@
-09:27:01.574 [main] DEBUG org.ordo.project.dao.jaxbimpl.EntityDAOJaxbImpl - using dataFile:C:\Users\joshm\Desktop\Work\Object Orientated Year 2\Project\Ordo\dao-jaxb\target\testDaofile.xml
-09:27:01.577 [main] DEBUG org.ordo.project.dao.jaxbimpl.EntityDAOJaxbImpl - dataFile does not exist creating new C:\Users\joshm\Desktop\Work\Object Orientated Year 2\Project\Ordo\dao-jaxb\target\testDaofile.xml
-09:27:01.586 [main] DEBUG org.ordo.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+18:09:45.545 [main] DEBUG org.ordo.project.dao.jaxbimpl.EntityDAOJaxbImpl - using dataFile:C:\Users\joshm\Desktop\Work\Object Orientated Year 2\Project\Ordo\dao-jaxb\target\testDaofile.xml
+18:09:45.545 [main] DEBUG org.ordo.project.dao.jaxbimpl.EntityDAOJaxbImpl - dataFile does not exist creating new C:\Users\joshm\Desktop\Work\Object Orientated Year 2\Project\Ordo\dao-jaxb\target\testDaofile.xml
+18:09:45.561 [main] DEBUG org.ordo.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <entityList>
     <entities/>
 </entityList>
 
-09:27:01.586 [main] DEBUG org.ordo.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding schedule:Schedule{id=null, timeStart=timeStart_0, timeEnd=timeEnd_0, price=price_0}
-09:27:01.597 [main] DEBUG org.ordo.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+18:09:45.561 [main] DEBUG org.ordo.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding schedule:Schedule{id=null, timeStart=timeStart_0, timeEnd=timeEnd_0, price=price_0}
+18:09:45.576 [main] DEBUG org.ordo.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <entityList>
     <lastEntityId>1</lastEntityId>
     <entities>
@@ -19,8 +19,8 @@
     </entities>
 </entityList>
 
-09:27:01.597 [main] DEBUG org.ordo.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding schedule:Schedule{id=null, timeStart=timeStart_1, timeEnd=timeEnd_1, price=price_1}
-09:27:01.602 [main] DEBUG org.ordo.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+18:09:45.576 [main] DEBUG org.ordo.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding schedule:Schedule{id=null, timeStart=timeStart_1, timeEnd=timeEnd_1, price=price_1}
+18:09:45.576 [main] DEBUG org.ordo.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <entityList>
     <lastEntityId>2</lastEntityId>
     <entities>
@@ -39,8 +39,8 @@
     </entities>
 </entityList>
 
-09:27:01.602 [main] DEBUG org.ordo.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding schedule:Schedule{id=null, timeStart=timeStart_2, timeEnd=timeEnd_2, price=price_2}
-09:27:01.608 [main] DEBUG org.ordo.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+18:09:45.576 [main] DEBUG org.ordo.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding schedule:Schedule{id=null, timeStart=timeStart_2, timeEnd=timeEnd_2, price=price_2}
+18:09:45.592 [main] DEBUG org.ordo.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <entityList>
     <lastEntityId>3</lastEntityId>
     <entities>
@@ -65,8 +65,8 @@
     </entities>
 </entityList>
 
-09:27:01.608 [main] DEBUG org.ordo.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding schedule:Schedule{id=null, timeStart=timeStart_3, timeEnd=timeEnd_3, price=price_3}
-09:27:01.613 [main] DEBUG org.ordo.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+18:09:45.592 [main] DEBUG org.ordo.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding schedule:Schedule{id=null, timeStart=timeStart_3, timeEnd=timeEnd_3, price=price_3}
+18:09:45.592 [main] DEBUG org.ordo.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <entityList>
     <lastEntityId>4</lastEntityId>
     <entities>
@@ -97,8 +97,8 @@
     </entities>
 </entityList>
 
-09:27:01.620 [main] DEBUG org.ordo.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - deleting  schedule:2
-09:27:01.625 [main] DEBUG org.ordo.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+18:09:45.608 [main] DEBUG org.ordo.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - deleting  schedule:2
+18:09:45.608 [main] DEBUG org.ordo.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <entityList>
     <lastEntityId>4</lastEntityId>
     <entities>
@@ -123,9 +123,9 @@
     </entities>
 </entityList>
 
-09:27:01.628 [main] DEBUG org.ordo.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - updating schedule: Schedule{id=3, timeStart=timeStart_2, timeEnd=timeEnd_2, price=price_2}
-09:27:01.628 [main] DEBUG org.ordo.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - update template: Schedule{id=3, timeStart=timeStart_Update, timeEnd=timeEnd_Update, price=null}
-09:27:01.630 [main] DEBUG org.ordo.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+18:09:45.608 [main] DEBUG org.ordo.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - updating schedule: Schedule{id=3, timeStart=timeStart_2, timeEnd=timeEnd_2, price=price_2}
+18:09:45.608 [main] DEBUG org.ordo.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - update template: Schedule{id=3, timeStart=timeStart_Update, timeEnd=timeEnd_Update, price=null}
+18:09:45.608 [main] DEBUG org.ordo.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <entityList>
     <lastEntityId>4</lastEntityId>
     <entities>
@@ -150,8 +150,8 @@
     </entities>
 </entityList>
 
-09:27:01.631 [main] DEBUG org.ordo.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - updated schedule: Schedule{id=3, timeStart=timeStart_Update, timeEnd=timeEnd_Update, price=price_2}
-09:27:01.632 [main] DEBUG org.ordo.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - retreived schedule: Schedule{id=3, timeStart=timeStart_Update, timeEnd=timeEnd_Update, price=price_2}
-09:27:01.634 [main] DEBUG org.ordo.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - searching for: Schedule{id=4, timeStart=timeStart_3, timeEnd=timeEnd_3, price=price_3}
-09:27:01.635 [main] DEBUG org.ordo.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - using template : Schedule{id=null, timeStart=null, timeEnd=timeEnd_3, price=null}
-09:27:01.636 [main] DEBUG org.ordo.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - found : Schedule{id=4, timeStart=timeStart_3, timeEnd=timeEnd_3, price=price_3}
+18:09:45.623 [main] DEBUG org.ordo.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - updated schedule: Schedule{id=3, timeStart=timeStart_Update, timeEnd=timeEnd_Update, price=price_2}
+18:09:45.623 [main] DEBUG org.ordo.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - retreived schedule: Schedule{id=3, timeStart=timeStart_Update, timeEnd=timeEnd_Update, price=price_2}
+18:09:45.623 [main] DEBUG org.ordo.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - searching for: Schedule{id=4, timeStart=timeStart_3, timeEnd=timeEnd_3, price=price_3}
+18:09:45.623 [main] DEBUG org.ordo.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - using template : Schedule{id=null, timeStart=null, timeEnd=timeEnd_3, price=null}
+18:09:45.623 [main] DEBUG org.ordo.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - found : Schedule{id=4, timeStart=timeStart_3, timeEnd=timeEnd_3, price=price_3}

@@ -1,11 +1,11 @@
-09:27:03.007 [main] DEBUG org.ordo.project.dao.jaxbimpl.EntityDAOJaxbImpl - using dataFile:C:\Users\joshm\Desktop\Work\Object Orientated Year 2\Project\Ordo\service\.\target\testfile.xml
-09:27:03.009 [main] DEBUG org.ordo.project.dao.jaxbimpl.EntityDAOJaxbImpl - dataFile does not exist creating new C:\Users\joshm\Desktop\Work\Object Orientated Year 2\Project\Ordo\service\.\target\testfile.xml
-09:27:03.015 [main] DEBUG org.ordo.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+18:09:47.098 [main] DEBUG org.ordo.project.dao.jaxbimpl.EntityDAOJaxbImpl - using dataFile:C:\Users\joshm\Desktop\Work\Object Orientated Year 2\Project\Ordo\service\.\target\testfile.xml
+18:09:47.098 [main] DEBUG org.ordo.project.dao.jaxbimpl.EntityDAOJaxbImpl - dataFile does not exist creating new C:\Users\joshm\Desktop\Work\Object Orientated Year 2\Project\Ordo\service\.\target\testfile.xml
+18:09:47.098 [main] DEBUG org.ordo.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <entityList>
     <entities/>
 </entityList>
 
-09:27:03.023 [main] DEBUG org.ordo.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+18:09:47.113 [main] DEBUG org.ordo.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <entityList>
     <lastEntityId>1</lastEntityId>
     <entities>

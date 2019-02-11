@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <entityList>
-    <lastEntityId>15</lastEntityId>
+    <lastEntityId>16</lastEntityId>
     <entities>
         <entity>
             <id>6</id>
@@ -55,6 +55,12 @@
             <timeStart>20:43 - Fri</timeStart>
             <timeEnd>22:00 - Fri</timeEnd>
             <price>3.79</price>
+        </entity>
+        <entity>
+            <id>16</id>
+            <timeStart>17:11 - Mon</timeStart>
+            <timeEnd>20:10 - Mon</timeEnd>
+            <price>3.78</price>
         </entity>
     </entities>
 </entityList>
